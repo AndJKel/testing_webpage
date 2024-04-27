@@ -65,6 +65,7 @@
   
   .navigation a:hover {
     background-color: #20435d;
+    font-weight:bold;
   }
 
   
@@ -178,4 +179,72 @@
     background-color: transparent;
     text-decoration: underline;
   }
+
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  .button {
+    font-size:  medium;
+    display: inline-block;
+    padding: 10px 13px; /* Adjust padding as needed */
+    background-color: #082f4b; /* Default background color */
+    color: #fff; /* Default text color */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.5s ease; /* Smooth transition */
+    font-family: 'Poppins', Arial, sans-serif;
+    border-radius: 10px;
+  }
+
+  .button .hover {
+    display: inline-block;
+    padding: 10px 13px; /* Adjust padding as needed */
+    background-color: #20435d; /* Default background color */
+    color: #fff; /* Default text color */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.5s ease; /* Smooth transition */
+    font-family: 'Poppins', Arial, sans-serif;
+    border-radius: 10px;
+  }
+
+
+
+
+
+
+
+
+
+
+ 
+  .filter li {
+    display: inline-flex; /* Display list items as inline */
+  }
+
+  
+  .filter a {
+    background-color: #fff;
+    text-decoration: none;
+    padding: 8px 8px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    
+  }
+  
+  .filter a:hover {
+    background-color: #20435d;
+    color: #fff;
+    font-weight:bold;
+  }
+
   
