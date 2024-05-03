@@ -12,11 +12,17 @@
     color: rgb(0, 0, 0);
   }
 
-  /* Header styles */
+  /* Header Rules */
   header {
     background-color: #082f4b;
     color: #fff;
     padding: 20px 20px;
+  }
+
+  header img{
+    float:inline-start;
+    margin-top: -5px;
+    margin-right: 10px;
   }
 
   header a:link {
@@ -74,7 +80,6 @@
     padding: 20px;
   }
 
- 
   .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -106,7 +111,22 @@
     margin-bottom: 30px;
     color: #1f1f1f;
   }
-  
+
+  .article-details {
+    color: #063e66;
+    margin-bottom: 5px;
+  }
+
+
+  /* Heading Rules */
+  h1 {
+    color: #063e66;
+  }
+
+  h2 {
+    color: #063e66;
+  }
+
   h3 {
     color: #063e66;
     margin-bottom: 10px;
@@ -117,12 +137,7 @@
     margin-bottom: 10px;
   }
   
-  .article-details {
-    color: #063e66;
-    margin-bottom: 5px;
-  }
-  
-  /* Footer styles */
+  /* Footer Rules */
   footer {
     background-color: #082f4b;
     color: #fff;
@@ -156,6 +171,7 @@
     text-decoration: underline;
   }
 
+  /* Link Rules */
   a:link {
     color: #063e66;
     background-color: transparent;
@@ -179,72 +195,45 @@
     background-color: transparent;
     text-decoration: underline;
   }
+  
 
+  /* Column Rules */
   .column {
     float: left;
     width: 50%;
     padding: 10px;
   }
-  
+
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
 
-
-  .button {
-    font-size:  medium;
-    display: inline-block;
-    padding: 10px 13px; /* Adjust padding as needed */
-    background-color: #082f4b; /* Default background color */
-    color: #fff; /* Default text color */
-    text-decoration: none; /* Remove underline */
-    transition: background-color 0.5s ease; /* Smooth transition */
-    font-family: 'Poppins', Arial, sans-serif;
-    border-radius: 10px;
-  }
-
-  .button .hover {
-    display: inline-block;
-    padding: 10px 13px; /* Adjust padding as needed */
-    background-color: #20435d; /* Default background color */
-    color: #fff; /* Default text color */
-    text-decoration: none; /* Remove underline */
-    transition: background-color 0.5s ease; /* Smooth transition */
-    font-family: 'Poppins', Arial, sans-serif;
-    border-radius: 10px;
+  /* Highlighted Text Rules */
+  mark {
+    background-color: #B4CBDB;
+    color: black;
   }
 
 
 
 
 
-
-
-
-
-
- 
-  .filter li {
-    display: inline-flex; /* Display list items as inline */
-  }
-
-  
-  .filter a {
-    background-color: #fff;
-    text-decoration: none;
-    padding: 8px 8px;
-    border-radius: 10px;
-    transition: background-color 0.3s ease;
-    font-weight: bold;
-    
+  #myBtn {
+    position: fixed;
+    bottom: 70px;
+    right: 25px;
+    z-index: 99;
+    border: none; /* Remove borders */
+    background-color: #082f4b; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
   }
   
-  .filter a:hover {
-    background-color: #20435d;
-    color: #fff;
-    font-weight:bold;
+  #myBtn:hover {
+    background-color: #063e66; /* Add a dark-grey background on hover */
   }
-
-  
