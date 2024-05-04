@@ -84,6 +84,11 @@
     max-width: 1200px;
     margin: 0 auto;
   }
+
+  .about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
   
   .about-section {
     padding: 20px 0;
@@ -107,12 +112,30 @@
   .article {
     border: 1px solid #949494;
     padding: 10px;
-    background-color: #f3f3f3;
+    background-color: #f1f1f1;
     margin-bottom: 30px;
     color: #1f1f1f;
   }
 
   .article-details {
+    color: #063e66;
+    margin-bottom: 5px;
+  }
+
+  
+  .about-section {
+    padding: 20px 0;
+  }
+  
+  .about {
+    border: 1px solid #949494;
+    padding: 10px;
+    background-color: #f1f1f1;
+    margin-bottom: 30px;
+    color: #1f1f1f;
+  }
+
+  .about-details {
     color: #063e66;
     margin-bottom: 5px;
   }
@@ -139,11 +162,11 @@
   
   /* Footer Rules */
   footer {
+    margin-bottom: 0 auto;
     background-color: #082f4b;
     color: #fff;
     text-align: center;
     padding: 20px 0;
-    bottom: 0;
     width: 100%;
   }
 
@@ -200,7 +223,6 @@
   /* Column Rules */
   .column {
     float: left;
-    width: 50%;
     padding: 10px;
   }
 
@@ -208,6 +230,22 @@
     content: "";
     display: table;
     clear: both;
+  }
+
+  .about-column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+  
+  .left{
+    width: 30%;
+    transform: translate(35%, 25%)
+  }
+
+  .right{
+    width: 70%;
+    padding-right: 140px;
   }
 
   /* Highlighted Text Rules */
@@ -221,6 +259,7 @@
 
 
   #myBtn {
+    display: none;
     position: fixed;
     bottom: 70px;
     right: 25px;
