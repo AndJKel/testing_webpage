@@ -36,6 +36,24 @@ function filterByName(e) {
 
 
 
+// Mobile friendly. Information for search obtained from: https://stackoverflow.com/questions/77018595/filter-html-list-based-on-inputs-value
+
+$( document ).ready(function() {      
+  var is_mobile = false;
+
+  if( $('#some-element').css('display')=='none') {
+      is_mobile = true;       
+  }
+
+  // now I can use is_mobile to run javascript conditionally
+
+  if (is_mobile == true) {
+      //Conditional script here
+  }
+});
+
+
+
 
 
 
