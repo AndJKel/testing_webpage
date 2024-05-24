@@ -341,5 +341,5 @@ hr.blue {
 
 /* Smartphones ----------- */
 @media only screen and (max-width: 760px) {
-  #img { display: none; }
+  #bgimages { display: none; }
 }
