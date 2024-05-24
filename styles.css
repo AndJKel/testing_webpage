@@ -338,15 +338,3 @@ hr.blue {
   border-bottom: 3px solid #063e66;
 }
 
-
-/* Smartphones ----------- */
-@media screen and (max-width: 700px) {
-  .bgimages {
-    visibility: hidden;
-    clear: both;
-    float: left;
-    margin: 10px auto 5px 20px;
-    width: 28%;
-    display: none;
-  }
-}
