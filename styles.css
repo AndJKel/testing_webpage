@@ -337,3 +337,9 @@ input {
 hr.blue {
   border-bottom: 3px solid #063e66;
 }
+
+
+/* Smartphones ----------- */
+@media only screen and (max-width: 760px) {
+  #img { display: none; }
+}
